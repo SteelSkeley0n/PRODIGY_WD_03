@@ -16,10 +16,15 @@ A modern, responsive Tic-Tac-Toe game built with HTML, CSS, and JavaScript. Play
 
 📁 Project Structure
 bash
+
 Copy
+
 Edit
+
 ├── index.html       # Main HTML file
+
 ├── style.css        # All styling and animations
+
 ├── script.js        # Game logic and AI behavior
 
 
