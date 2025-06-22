@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tic Tac Toe AI</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="wrapper">
+    <!-- HEADER -->
+    <header class="header">
+      <h1>Tic-Tac-Toe</h1>
+
+      <!-- Fancy pill switch -->
+      <label class="switch">
+        <input type="checkbox" id="ai-toggle" />
+        <span class="slider">
+          <span class="txt-off">2 Players</span>
+          <span class="txt-on">Play vs AI</span>
+        </span>
+      </label>
+    </header>
+
+    <!-- MAIN GAME AREA -->
+    <main class="game-area">
+      <section class="board">
+        <!-- 3×3 Grid -->
+        <div class="cell" data-index="0"></div>
+        <div class="cell" data-index="1"></div>
+        <div class="cell" data-index="2"></div>
+        <div class="cell" data-index="3"></div>
+        <div class="cell" data-index="4"></div>
+        <div class="cell" data-index="5"></div>
+        <div class="cell" data-index="6"></div>
+        <div class="cell" data-index="7"></div>
+        <div class="cell" data-index="8"></div>
+      </section>
+
+      <!-- SIDE PANEL -->
+      <aside class="side-panel">
+        <h2 id="status">Player X's turn</h2>
+
+        <div class="score-grid">
+          <div class="score-card">
+            <p class="label">X Wins</p>
+            <span id="x-score">0</span>
+          </div>
+          <div class="score-card">
+            <p class="label">O Wins</p>
+            <span id="o-score">0</span>
+          </div>
+          <div class="score-card">
+            <p class="label">Draws</p>
+            <span id="draw-score">0</span>
+          </div>
+        </div>
+
+        <button id="restart" class="btn-primary">Restart Game</button>
+      </aside>
+    </main>
+  </div>
+
+  <audio id="click-sound"
+         src="https://cdn.pixabay.com/download/audio/2022/03/15/audio_cfc2045d75.mp3?filename=click-124467.mp3">
+  </audio>
+  <script src="script.js"></script>
+</body>
+</html>
