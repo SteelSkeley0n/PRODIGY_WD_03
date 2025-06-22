@@ -15,11 +15,7 @@ A modern, responsive Tic-Tac-Toe game built with HTML, CSS, and JavaScript. Play
 🔄 Restart game without refreshing the page
 
 📁 Project Structure
-bash
 
-Copy
-
-Edit
 
 ├── index.html       # Main HTML file
 
