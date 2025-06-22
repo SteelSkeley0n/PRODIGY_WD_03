@@ -33,4 +33,8 @@ A modern, responsive Tic-Tac-Toe game built with HTML, CSS, and JavaScript. Play
  - Vanilla JavaScript
 
 Sample - 
+![Screenshot 2025-06-22 153556](https://github.com/user-attachments/assets/5da0e89a-a165-404a-9ba0-9cb9a9d1246c)
+![Screenshot 2025-06-22 153535](https://github.com/user-attachments/assets/7c104228-f286-4842-b235-41b164c21bd2)
+![Screenshot 2025-06-22 153619](https://github.com/user-attachments/assets/b257c0f9-e224-40e7-aece-99beac0fca5b)
+
 
